@@ -12,8 +12,16 @@ type camera_persist_file, file_type, mlstrustedobject, vendor_persist_type;
 # Displayfeature
 type vendor_sysfs_displayfeature, fs_type, sysfs_type;
 
+# Dmabuf
+type vendor_dmabuf_qseecom_heap_device, device_type;
+type vendor_dmabuf_qseecom_heap_device_device, dev_type;
+type vendor_dmabuf_qseecom_ta_heap_device, device_type;
+
 # last_kmsg
 type proc_last_kmsg, fs_type, proc_type;
+
+# NFC
+type vendor_nfc_prop, property_type;
 
 # Ril
 type vendor_modem_data_file, data_file_type, file_type;
@@ -38,3 +46,6 @@ type touchreport_data_file, data_file_type, file_type;
 
 # UFS
 type ufs_sysfs, fs_type, sysfs_type;
+
+# Vibrator
+type vendor_sysfs_sndcard, file_type;
